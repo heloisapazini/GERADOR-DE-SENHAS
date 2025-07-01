@@ -70,7 +70,8 @@ console.log(alfabeto);
   classificaSenha();
 }
 function classificaSenha(){
-     forcaSenha.classList.add('forte');
+    forcaSenha.classList.remove('fraca','media','forte');
+    forcaSenha.classList.add('forte');
 
 
 }
