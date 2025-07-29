@@ -70,6 +70,7 @@ console.log(alfabeto);
   classificaSenha(alfabeto.length);
 }
 function classificaSenha(tamanhoAlfabeto){
+    const valorEntropia = document.querySelector('.entropia');
     let entropia = tamanhoSenha * Math.log2(tamanhoAlfabeto);
     console.log(entropia);
     forcaSenha.classList.remove('fraca','media','forte');
